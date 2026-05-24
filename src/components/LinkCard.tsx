@@ -11,7 +11,7 @@ function LinkCard({ href, title, subtitle, icon }: LinkCardProps) {
             href={href}
             target="_blank"
             rel="noreferrer"
-            className="roup flex items-center gap-4 rounded-2xl border border-lightgreen bg-cardbg px-5 py-4 transition hover:border-forestgreen hover:bg-lightgreen/40"
+            className="group flex items-center gap-4 rounded-2xl border border-lightgreen bg-cardbg px-5 py-4 transition hover:border-forestgreen hover:bg-lightgreen/40"
         >
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-lightgreen text-forestgreen">
                 {icon}
