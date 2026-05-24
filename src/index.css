@@ -1,2 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+    --color-background: #FFFDF6;
+    --color-foreground: #555954;
+    --color-cardbg: #F4F2EB;
+    --color-lightgreen: #D9E7CB;
+    --color-forestgreen: #406B2A;
+    --font-manrope: "Manrope", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-manrope);
+}
