@@ -1,5 +1,7 @@
 import LinkCard from "./components/LinkCard"
 import Avatar from "./components/Avatar"
+import StatusBadge from "./components/StatusBadge"
+import NowBuilding from "./components/NowBuilding"
 
 const LinkedInIcon = (
   <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current" aria-hidden="true">
@@ -37,9 +39,15 @@ function App() {
           <p className="mt-1 flex items-center gap-1 text-sm text-foreground/70">
             <span aria-hidden="true">📍</span> Modesto, CA
           </p>
+          <StatusBadge status="open" />
         </div>
 
-        <div className="mt-10 flex w-full flex-col gap-3">
+        <div className="mt-8 flex w-full flex-col gap-3">
+          <NowBuilding
+            project="Younathan Assessment"
+            description="Personal linktree-style portfolio page built with React + Tailwind"
+            href="https://github.com/AidanYounathan/younathanassesment"
+          />
           <LinkCard href="https://www.linkedin.com/in/aidan-younathan/" title="My LinkedIn" subtitle="linkedin.com/in/aidan-younathan/" icon={LinkedInIcon} />
           <LinkCard href="https://www.aidanyounathan.dev/" title="My Portfolio" subtitle="aidanyounathan.dev" icon={MonitorIcon} />
           <LinkCard href="https://github.com/AidanYounathan/aidanyounathan/blob/main/Aidan_Younathan_SWE_Resume.pdf" title="My Resume" subtitle="Aidan Younathan · Software Engineer" icon={ResumeIcon} />
