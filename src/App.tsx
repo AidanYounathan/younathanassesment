@@ -46,6 +46,9 @@ function App() {
           <LinkCard href="https://github.com/aidanyounathan" title="My GitHub" subtitle="github.com/aidanyounathan" icon={GitHubIcon} />
         </div>
 
+        <footer className="mt-8 text-sm text-foreground/60">
+          BizzNEST · Modesto, CA
+        </footer>
       </section>
     </main>
   )
