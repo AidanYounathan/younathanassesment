@@ -1,4 +1,5 @@
 import LinkCard from "./components/LinkCard"
+import Avatar from "./components/Avatar"
 
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <section className="mx-auto flex max-w-md flex-col items-center w-full">
         <div>
           <div className="flex flex-col items-center">
+
+            <Avatar initials="AY" />
+
             <h1 className="mt-6 text-3xl font-bold text-forestgreen sm:text-4xl">Aidan Younathan</h1>
             <p className="mt-2 text-base font-semibold sm:text-lg">Software Engineer Associate · DigitalNEST</p>
             <p className="mt-1 flex items-center gap-1 text-sm text-foreground/70"> <span className="aria-hidden">📍</span> Modesto, CA</p>
@@ -14,8 +18,6 @@ function App() {
         </div>
 
         <div className="mt-10 flex w-full flex-col gap-3">
-
-
           <LinkCard
           href="https://www.linkedin.com/in/aidan-younathan/"
           title="My LinkedIn"
